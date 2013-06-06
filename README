@@ -1,0 +1,18 @@
+Project by 
+
+Ashish Bhat (3551-1352)
+Nitin Agrahara Ravikumar (7371-4398)
+
+Steps to run : 
+1. Make changes in PeerInfo.cfg about the peerID | machine name | 1- for who has file
+2. Make changes in Common.cfg to specify : NumberOfPreferredNeighbors | UnchokingInterval | OptimisticUnchokingInterval | FileName |FileSize | PieceSize 
+
+
+3. Creating the peer_1000 folder where TheFile.dat is placed | mkdir peer_1000
+4. Create a desired byte file by this command | dd if=/dev/zero of=testfile_10MB bs=10485760 count=1
+ 
+
++++++++++++++++++++++++++++++++++++++++++
+5. Compile everything once | javac *.java javac *.java 
+6. java StartRemotePeers
++++++++++++++++++++++++++++++++++++++++++
